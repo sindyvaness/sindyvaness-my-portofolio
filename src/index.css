@@ -49,14 +49,11 @@ code {
 }
 
 .projects-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
 .project-item {
-  width: 30%;
+  flex: 0 0 30%; 
 }
 
 .experience {
@@ -106,7 +103,6 @@ code {
 
 .contact-image {
   width: 100%;
-  /* display: block; */
 }
 
 .contact-info {
@@ -137,4 +133,18 @@ h2.subtitles {
   font-size: 2.5rem;
   color: '3A2727';
   font-weight: bold;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .project-item {
+    flex: 0 0 48%;
+  }
+}
+
+/* Teléfonos */
+@media (max-width: 600px) {
+  .project-item {
+    flex: 0 0 100%;
+  }
 }
