@@ -48,6 +48,13 @@ code {
   padding: 2rem;
 }
 
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
 .project-item {
   width: 30%;
 }
