@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,119 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hero {
+  width: "100%";
+}
+
+.carrousel-image {
+  height: 92vh;
+}
+
+.skills {
+  width: 100%;
+  background-color: #dee2e6;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.skills-container {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.skill-item {
+  width: 100px;
+  height: 100px;
+}
+
+.projects {
+  width: 100%;
+  padding: 2rem;
+}
+
+.project-item {
+  width: 30%;
+}
+
+.experience {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.exp-texts {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.exp-ativities-title {
+  margin-top: 1rem;
+}
+
+.exp-years {
+  display: block;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.education {
+  margin-top: 2rem;
+}
+
+.education-list {
+  width: 60%;
+  margin: auto;
+}
+
+.edu-info {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.contact {
+  position: relative;   /* necesario para posicionar texto encima */
+  /* display: inline-block; */
+  margin-top: 2rem;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.contact-image {
+  width: 100%;
+  /* display: block; */
+}
+
+.contact-info {
+  position: absolute;
+  top: 50%;             /* centrado vertical */
+  left: 50%;            /* centrado horizontal */
+  transform: translate(-50%, -50%);  /* centro perfecto */
+  padding: 3rem;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0 6px 6px rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center; 
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* General Styles */
+h2.subtitles {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: '3A2727';
+  font-weight: bold;
 }
