@@ -120,6 +120,34 @@ code {
   border-radius: 5px;
 }
 
+/* Mobile Project Mobile */
+.mbp-container {
+  width: 90%;
+  height: 85vh;
+  margin: auto;
+  padding: 1rem;
+}
+
+.mbp-title {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mbp-body {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  height: 100%;
+}
+
+.mbp-video .video {
+  width: 75%;
+  height: auto;
+  border-radius: 20px;
+}
+
 .footer {
   text-align: center; 
   padding: 20px;

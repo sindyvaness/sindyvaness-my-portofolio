@@ -9,17 +9,19 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import MobileProject from './components/MobileProject';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Hero></Hero>
+      <MobileProject></MobileProject>
+      {/* <Hero></Hero>
       <Skills></Skills>
       <Projects></Projects>
       <Experience></Experience>
       <Education></Education>
-      <Contact></Contact>
+      <Contact></Contact> */}
       <Footer></Footer>
     </>
   );
