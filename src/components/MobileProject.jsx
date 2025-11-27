@@ -1,12 +1,10 @@
-import videoDemo from "../assets/images/projects/movies-app-assets/video-demo.mov"
-
 const MobileProject = () => {
     return(
         <div className="mbp-container">
             <div className="mbp-body">
                 <div className="mbp-video">
                     <video className="video"
-                        src={videoDemo} 
+                        src='assests/projects/movies-app/video-demo.mp4'
                         autoPlay 
                         loop 
                         muted

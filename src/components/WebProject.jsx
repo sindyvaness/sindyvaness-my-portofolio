@@ -1,5 +1,3 @@
-import videoDemo from '../assets/images/projects/fit-found/fitfound-demo.mp4';
-
 const WebProject = () => {
     return(
         <div className='webp-container'>
@@ -8,7 +6,7 @@ const WebProject = () => {
                 <div class="row">
                     <div className='webp-video-container'>
                         <video className="webp-video"
-                            src={videoDemo} 
+                            src='assests/projects/fit-found/fitfound-demo.mp4' 
                             autoPlay 
                             loop 
                             muted
