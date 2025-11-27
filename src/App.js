@@ -10,12 +10,14 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import MobileProject from './components/MobileProject';
+import WebProject from './components/WebProject';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <MobileProject></MobileProject>
+      {/* <MobileProject></MobileProject> */}
+      <WebProject></WebProject>
       {/* <Hero></Hero>
       <Skills></Skills>
       <Projects></Projects>

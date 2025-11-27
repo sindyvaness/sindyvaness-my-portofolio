@@ -120,7 +120,32 @@ code {
   border-radius: 5px;
 }
 
-/* Mobile Project Mobile */
+/* Web Project */
+
+.webp-container {
+  padding: 1rem;
+}
+
+/* .webp-video-container {
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+} */
+
+.webp-video {
+  width: 60%;
+  border-radius: 15px;
+  
+}
+
+.webp-description {
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+/* Mobile Project */
 .mbp-container {
   max-width: 90%;
   height: 85vh;
@@ -130,7 +155,7 @@ code {
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
-.mbp-title {
+.mbp-title, .webp-title {
   position: sticky;
   top: 0;
   left: 0;
@@ -172,7 +197,7 @@ code {
   padding: 0 0.5rem 0 0;
 }
 
-.mbp-description p strong {
+.mbp-description p strong, .webp-description p strong {
   display: inline-block;
   margin-left: 5px;
 }
