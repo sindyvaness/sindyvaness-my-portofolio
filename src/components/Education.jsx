@@ -1,6 +1,6 @@
 const Education = () => {
     return(
-        <div className="education">
+        <div className="education" id="education">
             <h2 className="subtitles">Education</h2>
             <div>
                 <ul class="list-group list-group-flush education-list">

@@ -17,6 +17,12 @@ code {
     monospace;
 }
 
+nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+}
+
 .hero {
   width: "100%";
 }

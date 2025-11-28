@@ -3,7 +3,8 @@ import carrousel2 from "../assets/images/hero/carrousel-2.jpg";
 
 const Hero = () => {
     return(
-        <div id="carouselExampleCaptions" class="carousel slide hero">
+        <div id="home">
+            <div id="carouselExampleCaptions" className="carousel slide hero">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -41,6 +42,7 @@ const Hero = () => {
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        </div> 
     );
 };
 

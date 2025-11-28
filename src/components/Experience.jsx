@@ -1,6 +1,6 @@
 const Experience = () => {
     return(
-        <div className="experience">
+        <div className="experience" id="experience">
             <h2 className="subtitles">My Previous Experience</h2>
             <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">

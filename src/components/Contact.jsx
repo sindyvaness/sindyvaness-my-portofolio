@@ -2,7 +2,7 @@ import contactImg from "../assets/images/contact.jpg";
 
 const Contact = () => {
     return(
-        <div className="contact">
+        <div className="contact" id="contact">
             <img src={contactImg} className="contact-image" alt="..." />
             <div className="contact-info">
                 <p><i class="bi bi-telephone-fill"></i>  +1(604)562-4980</p>

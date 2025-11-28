@@ -1,32 +1,111 @@
 [
     {
-        "title": "",
+        "type": 0,
+        "title": "Movie App - React Native",
+        "video": "assests/projects/movies-app/video-demo.mov",
+        "description": "A movie and TV show browsing application that fetches up-to-date content from a real-time movie API. Users can explore trending titles, search for specific films or series, and view detailed metadata including ratings, descriptions, cast information, and more.",
+        "technologies": [
+            "React Native (JavaScript) with Expo Go",
+            "React Native Elements for UI components",
+            "React Native Safe Area Context for handling safe areas",
+            "React Navigation for app navigation"
+        ],
+        "externalResources": [ {
+            "link": "https://www.themoviedb.org/",
+            "text": "The Movie BD" 
+            }
+        ],
+        "mainFeatures": [
+            "Fetching list of movies base on the state",
+            "Search by movie or tv show name",
+            "List TV Shows",
+            "See movie description and metadata such as title, image, popularity, and release date"
+        ],
+        "future": [
+            "General Layout and design",
+            "Fetch more info about the movie",
+            "Format of the texts in the select boxes"
+        ],
+        "gitHub": {
+            "url": "https://github.com/sindyvaness/react-native-movie-app",
+            "text": "Movies App - GitHub Repo"
+        }
+    },
+    {
+        "type": 1,
+        "title": "FitFound - React App",
+        "video": "assests/projects/fit-found/fitfound-demo.mov",
+        "description": "FitFound is an innovative job-matching web application developed by a collaborative team. It reimagines the traditional hiring process. Instead of candidates endlessly applying for positions, the platform allows employers to actively search, filter, and connect with qualified talent that fits their needs. This model creates a more transparent, efficient, and mutually beneficial experience for both job seekers and companies.",
+        "contribution": [
+            "Frontend implementation of screens.",
+            "OAuth with Google.",
+            "OAuth with LinkedIn (POC)",
+            "Company Profile frontend: Saving and updating company profile through Express API endpoints; and pictures with Supabase.",
+            "Candidate Insights: Gemini AI features designed to provide recommendations on how to improve the profile and enhance development skills.",
+            "Candidate Insights: Charts to display statistics about search appearances and the skills that were matched in the search.."
+
+        ],
+        "technologies": [
+            "React for building a dynamic, responsive user interface",
+            "Express for a robust and efficient server-side framework",
+            "MongoDB for flexible, high-performance data storage",
+            "Supabase and Firebase for secure authentication and user management",
+            "Gemini for AI-powered features that enhance candidate-employer matching",
+            "Recharts for data visualization, giving employers and candidates clear insights into job market trends"
+        ],
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
+        "mainFeatures": [
+            "Smart Candidate Matching: Employers upload job requirements and instantly receive a list of pre-matched candidates based on skills, experience, location, and preferences using intelligent filtering.",
+            "One-Time Universal Profile for Candidates: Job seekers create a single, detailed profile that serves all future job matches—no need to reapply or re-upload data multiple times.",
+            "Direct Outreach & Interview Invitations: Employers can contact shortlisted candidates directly via personalized emails or text messages, speeding up communication and improving engagement.",
+            "Verified Hiring Badges: Once a candidate is hired, the employer can 'badge' their profile to confirm employment, adding a verifiable work record visible to future employers.",
+            "Profile Visibility Insights: Candidates can view stats on how often their profile is appearing in search results or getting shortlisted, helping them improve their visibility. "
+        ],
+        "future": [""],
+        "gitHub": {
+            "url": "https://github.com/vipuljuneja/FitFound",
+            "text": "FitFound - GitHub Repo (private)"
+        }
+    },
+    {
+        "type": 1,
+        "title": "MemoTrip - HTML - CSS - JS App",
         "video": "",
         "description": "",
         "technologies": [""],
-        "externalResources": [""],
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
         "mainFeatures": [""],
         "future": [""],
-        "gitHub": ""
+        "gitHub": {
+            "url": "",
+            "text": ""
+        }
     },
     {
         "title": "",
         "video": "",
         "description": "",
         "technologies": [""],
-        "externalResources": [""],
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
         "mainFeatures": [""],
         "future": [""],
-        "gitHub": ""
-    },
-    {
-        "title": "",
-        "video": "",
-        "description": "",
-        "technologies": [""],
-        "externalResources": [""],
-        "mainFeatures": [""],
-        "future": [""],
-        "gitHub": ""
+        "gitHub": {
+            "url": "",
+            "text": ""
+        }
     }
+    
+    
 ]

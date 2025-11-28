@@ -5,8 +5,8 @@ const Projects = () => {
     const [showModal, setShowModal] = useState(false);
 
     return(
-        <div className="projects">
-            <h2 className="subtitles">My Work</h2>
+        <div className="projects" id="projects">
+            <h2 className="subtitles">Projects</h2>
             <div className="d-flex justify-content-between flex-wrap row-gap-3 projects-container">
                 <div className="card project-item">
                     <img src={carrousel1} className="card-img-top" alt="..." />
