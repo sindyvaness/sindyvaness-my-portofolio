@@ -23,6 +23,20 @@ nav {
   z-index: 9999 !important;
 }
 
+.nav-item {
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.nav-item:hover {
+  background-color: rgb(250, 237, 221);
+}
+
+.nav-item .active {
+  border-radius: 10px;
+  background-color: rgb(250, 237, 221);
+}
+
 .hero {
   width: "100%";
 }
