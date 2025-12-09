@@ -9,6 +9,7 @@
         "technologies": [
             ""
         ],
+        "mainTechnology": "React Native",
         "externalResources": [ {
             "link": "",
             "text": "" 
@@ -24,7 +25,7 @@
     {
         "type": "mobile",
         "id": 1,
-        "title": "Movie App - React Native",
+        "title": "Movie App",
         "image": "assests/projects/movies-app/face.png",
         "video": "assests/projects/movies-app/video-demo.mov",
         "description": "A movie and TV show browsing application that fetches up-to-date content from a real-time movie API. Users can explore trending titles, search for specific films or series, and view detailed metadata including ratings, descriptions, cast information, and more.",
@@ -34,6 +35,7 @@
             "React Native Safe Area Context for handling safe areas",
             "React Navigation for app navigation"
         ],
+        "mainTechnology": "React Native",
         "externalResources": [ {
             "link": "https://www.themoviedb.org/",
             "text": "The Movie BD" 
@@ -68,6 +70,7 @@
             "React Native Safe Area Context for handling safe areas",
             "React Navigation for app navigation"
         ],
+        "mainTechnology": "React Native",
         "externalResources": [ {
             "link": "https://www.edamam.com/",
             "text": "Edamam Recipes and Food Data Licensing API" 
@@ -102,6 +105,7 @@
             "Gemini for AI-powered features that enhance candidate-employer matching",
             "Recharts for data visualization, giving employers and candidates clear insights into job market trends"
         ],
+        "mainTechnology": "React",
         "externalResources": [ {
             "link": "",
             "text": "" 
@@ -126,6 +130,7 @@
         "video": "",
         "description": "",
         "technologies": [""],
+        "mainTechnology": "Vanilla JavaScript",
         "externalResources": [ {
             "link": "",
             "text": "" 

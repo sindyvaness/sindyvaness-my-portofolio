@@ -25,9 +25,9 @@ const Projects = () => {
                     <div className="card project-item" key={project.name}>
                         <img src={project.image} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title">{project.title}</h5>
-                            <p className="card-text"></p>
-                            <button className="btn btn-primary" onClick={() => redirectProject(project)}>
+                            <h6 className="card-title">{project.title}</h6>
+                            <p className="card-text">{project.mainTechnology} base Application</p>
+                            <button className="btn" onClick={() => redirectProject(project)}>
                                 See More
                             </button>
                         </div>
