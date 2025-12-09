@@ -1,7 +1,31 @@
 [
     {
-        "type": 0,
+        "id": 5,
+        "type": "mobile",
+        "title": "Dosis",
+        "image": "assests/projects/dosis/face.png",
+        "video": "",
+        "description": "",
+        "technologies": [
+            ""
+        ],
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
+        "mainFeatures": [""],
+        "future": [""],
+        "gitHub": {
+            "url": "",
+            "text": ""
+        }
+    },
+    {
+        "type": "mobile",
+        "id": 1,
         "title": "Movie App - React Native",
+        "image": "assests/projects/movies-app/face.png",
         "video": "assests/projects/movies-app/video-demo.mov",
         "description": "A movie and TV show browsing application that fetches up-to-date content from a real-time movie API. Users can explore trending titles, search for specific films or series, and view detailed metadata including ratings, descriptions, cast information, and more.",
         "technologies": [
@@ -29,6 +53,31 @@
         "gitHub": {
             "url": "https://github.com/sindyvaness/react-native-movie-app",
             "text": "Movies App - GitHub Repo"
+        }
+    },
+    {
+        "id": 3,
+        "type": "mobile",
+        "title": "Recipes App",
+        "image": "assests/projects/recipes-app/face.png",
+        "video": "",
+        "description": "This mobile app allows users to search and explore recipes based on their main ingredient. It connects to an API to fetch up-to-date results and display a list of relevant dishes. When users select a recipe, they can view basic information and, with a single tap, be redirected to the original website where the full recipe and detailed instructions are available.",
+        "technologies": [
+            "React Native (JavaScript) with Expo Go",
+            "React Native Elements for UI components",
+            "React Native Safe Area Context for handling safe areas",
+            "React Navigation for app navigation"
+        ],
+        "externalResources": [ {
+            "link": "https://www.edamam.com/",
+            "text": "Edamam Recipes and Food Data Licensing API" 
+            }
+        ],
+        "mainFeatures": ["Recipe search by ingredient", "Navigate to the origen web page to see the recipe details"],
+        "future": ["Add some info about the recipe in a detail screen so the user can see a short description before"],
+        "gitHub": {
+            "url": "",
+            "text": ""
         }
     },
     {
@@ -72,25 +121,8 @@
         }
     },
     {
-        "type": 1,
+        "type": "web",
         "title": "MemoTrip - HTML - CSS - JS App",
-        "video": "",
-        "description": "",
-        "technologies": [""],
-        "externalResources": [ {
-            "link": "",
-            "text": "" 
-            }
-        ],
-        "mainFeatures": [""],
-        "future": [""],
-        "gitHub": {
-            "url": "",
-            "text": ""
-        }
-    },
-    {
-        "title": "",
         "video": "",
         "description": "",
         "technologies": [""],

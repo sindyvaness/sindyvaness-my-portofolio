@@ -31,6 +31,83 @@ nav {
   height: 92vh;
 }
 
+.carousel-text-container {
+  height: auto !important;
+  background-color: rgba(0, 0, 0, 0.59) !important;
+  border-radius: 12px;
+}
+
+.carousel-text-container p {
+  background-color: black;
+  margin: 0;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.hero-skills-logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.hero-skills-logos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-skills-logos img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 2px 2px rgba(86, 85, 85, 0.676);
+  
+}
+
+.hero-skills-logos div span {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 3px 2px 2px rgba(243, 241, 241, 0.676);
+}
+
+/* Hero Slide 2 */
+
+.hero-best-practices {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.hero-best-practices p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: wheat;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px rgba(243, 241, 241, 0.676);
+}
+/* .hero-2-text,
+/* .hero-2-text p {
+  background-color: white !important;
+  color: black !important;
+} */ 
+
+.hero-best-practices {
+  display: flex;
+}
 .skills {
   width: 100%;
   background-color: #dee2e6;

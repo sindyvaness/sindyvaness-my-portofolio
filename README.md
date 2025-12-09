@@ -78,6 +78,7 @@ Photo by <a href="https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=re
 
 Photo by <a href="https://unsplash.com/@hdbernd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bernd 📷 Dittrich</a> on <a href="https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-table-PKqxOOQqN64?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Photo by Google DeepMind: https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l-18069694/
 
 Contact Footo:
 Foto de Pixabay: https://www.pexels.com/es-es/foto/edificio-de-cupula-gris-junto-al-cuerpo-de-agua-durante-la-puesta-de-sol-63332/
