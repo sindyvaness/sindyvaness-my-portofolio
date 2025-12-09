@@ -60,7 +60,7 @@
         "type": "mobile",
         "title": "Recipes App",
         "image": "assests/projects/recipes-app/face.png",
-        "video": "",
+        "video": "assests/projects/recipes-app/demo-video.mov",
         "description": "This mobile app allows users to search and explore recipes based on their main ingredient. It connects to an API to fetch up-to-date results and display a list of relevant dishes. When users select a recipe, they can view basic information and, with a single tap, be redirected to the original website where the full recipe and detailed instructions are available.",
         "technologies": [
             "React Native (JavaScript) with Expo Go",
