@@ -1,4 +1,12 @@
+import { useLocation } from "react-router-dom";
+
 const MobileProject = () => {
+    
+    const { state } = useLocation();
+    const { project } = state || {};
+
+    console.log(project || "No project");
+
     return(
         <div className="mbp-container">
             <div className="mbp-body">
@@ -12,7 +20,7 @@ const MobileProject = () => {
                         />
                 </div>
                 <div className="mbp-description">
-                    <div className="mbp-title">Movies App - React Native - Movies API</div>
+                    <div className="mbp-title">{project.title}</div>
                     <p>A movie and TV show browsing application that fetches up-to-date content from a real-time movie API. Users can explore trending titles, search for specific films or series, and view detailed metadata including ratings, descriptions, cast information, and more.
                     </p>
                     <p><i class="bi bi-code-square"></i><strong>Technologies:</strong></p>
