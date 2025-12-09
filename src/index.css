@@ -4,7 +4,8 @@
 }
 
 body {
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,6 +17,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* NAV SECTION */
 
 nav {
   position: sticky !important;
@@ -149,6 +152,7 @@ nav {
 
 .projects-container {
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .project-item {
@@ -346,15 +350,117 @@ h2.subtitles {
 }
 
 /* Tablets */
-@media (max-width: 1024px) {
+@media (max-width: 990px) {
+
+  /* NAV */
+  .nav-item {
+    padding-left: 0.5rem !important;
+  }
+
+  .nav-item .active {
+    padding-left: 0.5rem !important;
+  }
+
+  /* PROJECTS */
   .project-item {
     flex: 0 0 48%;
   }
 }
 
 /* Teléfonos */
-@media (max-width: 600px) {
+@media (max-width: 769px) {
+
+  /* HERO */
+  #web {
+    display: none;
+  }
+
+  .mobile-hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+  }
+
+  .mobile-hero-container .description {
+    width: 80%;
+  }
+
+  .hero-skills-logos {
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  /* Ancho del scrollbar */
+  .hero-skills-logos::-webkit-scrollbar,
+  .projects-container::-webkit-scrollbar {
+    height: 4px; /* horizontal */
+    width: 8px;  /* vertical */
+  }
+
+  /* Track (fondo del scroll) */
+  .hero-skills-logos::-webkit-scrollbar-track,
+  .projects-container::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+  }
+
+  /* Thumb (la parte que se mueve) */
+  .hero-skills-logos::-webkit-scrollbar-thumb,
+  .projects-container::-webkit-scrollbar-thumb {
+    background-color: #6c63ff;
+    border-radius: 10px;
+  }
+
+  .hero-skills-logos div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .hero-skills-logos div img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  .mobile-hero-container * {
+    align-self: center;
+  }
+  
+
+  /* PROJECTS */
+  .projects-container {
+    max-width: 100%;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+  }
+
   .project-item {
-    flex: 0 0 100%;
+    flex: 0 0 80%;
+  }
+
+  .project-item img {
+    height: 200px;
+  }
+
+  /* EXPERIENCE SECTION */
+
+  .experience {
+    width: 100%;
+  }
+
+  /* EDUCATION SECTION */
+  .education-list {
+    width: 100%;
+    margin: auto;
   }
 }

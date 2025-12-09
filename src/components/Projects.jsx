@@ -23,7 +23,7 @@ const Projects = () => {
     return(
         <div className="projects" id="projects">
             <h2 className="subtitles">Projects</h2>
-            <div className="d-flex justify-content-between flex-wrap row-gap-3 projects-container">
+            <div className="d-flex justify-content-between row-gap-3 projects-container">
                 {projects.map(project => (
                     <div className={ project.type === "mobile" ? "card project-item" : "card project-item web-project-card"} key={project.name}>
                         <img src={project.image} className="card-img-top" alt="..." />
