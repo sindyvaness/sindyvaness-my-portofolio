@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const MobileProject = () => {
     
     const { state } = useLocation();
     const { project } = state || {};
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return(
         <div className="mbp-container">

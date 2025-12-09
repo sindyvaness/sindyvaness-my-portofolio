@@ -5,7 +5,7 @@ import carrousel3 from "../assets/images/hero/carrousel-3.jpg";
 const Hero = () => {
     return(
         <div id="home">
-            <div id="carouselExampleInterval" className="carousel slide hero" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" className="carousel slide hero">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>

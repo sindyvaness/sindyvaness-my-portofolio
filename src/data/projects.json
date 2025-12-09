@@ -4,22 +4,28 @@
         "type": "mobile",
         "title": "Dosis",
         "image": "assests/projects/dosis/face.png",
-        "video": "",
-        "description": "",
+        "video": "assests/projects/dosis/dosis-soon.mp4",
+        "description": "DoSis is a MedTech and Digital Health app designed to simplify the management of medications. It helps to prevent missed doses, unsafe combinations, and confusion by integrating schedules, providing explanations, risk alerts, and fitting into routines.",
         "technologies": [
-            ""
+            "React Native (JavaScript) with Expo Go",
+            "Typescript",
+            "JSON Web Tokens",
+            "Express",
+            "Gemini AI",
+            "Python and Vision API",
+            "MongoDB and Supabase"
         ],
         "mainTechnology": "React Native",
         "externalResources": [ {
-            "link": "",
-            "text": "" 
+            "link": "https://aistudio.google.com/welcome?utm_source=PMAX&utm_medium=display&utm_campaign=FY25-global-DR-pmax-1710442&utm_content=pmax&gclsrc=aw.ds&gad_source=1&gad_campaignid=22311568465&gbraid=0AAAAACn9t66xKdWVSmbMTfPgLk-Jy92wc&gclid=Cj0KCQiArt_JBhCTARIsADQZaynzVF3DoRKwyLS9aQEPli3pq3swZyCqBbDjwFbihLjKIHhLhm-WGDsaAjzQEALw_wcB",
+            "text": "Gemini AI API" 
             }
         ],
-        "mainFeatures": [""],
-        "future": [""],
+        "mainFeatures": ["OCR Medication Information Management", "Smart Medication Schedule Proposals", "Context-Aware Advanced Notifications", "Base AI Capabilites Drugs Interactions"],
+        "future": ["Enhanced Data Collection with Linked Wearable Devices", "Multi-User Medication Management", "Smart Recommendations from Advanced Health Data"],
         "gitHub": {
-            "url": "",
-            "text": ""
+            "url": "https://github.com/Francisco1116/2025Capstone.git",
+            "text": "Dosis Github (Private)"
         }
     },
     {
@@ -84,9 +90,10 @@
         }
     },
     {
-        "type": 1,
-        "title": "FitFound - React App",
-        "video": "assests/projects/fit-found/fitfound-demo.mov",
+        "type": "web",
+        "title": "FitFound",
+        "video": "assests/projects/fit-found/fitfound-demo.mp4",
+        "image": "assests/projects/fit-found/face.png",
         "description": "FitFound is an innovative job-matching web application developed by a collaborative team. It reimagines the traditional hiring process. Instead of candidates endlessly applying for positions, the platform allows employers to actively search, filter, and connect with qualified talent that fits their needs. This model creates a more transparent, efficient, and mutually beneficial experience for both job seekers and companies.",
         "contribution": [
             "Frontend implementation of screens.",
@@ -126,7 +133,7 @@
     },
     {
         "type": "web",
-        "title": "MemoTrip - HTML - CSS - JS App",
+        "title": "MemoTrip",
         "video": "",
         "description": "",
         "technologies": [""],
