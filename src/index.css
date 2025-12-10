@@ -381,6 +381,9 @@ h2.subtitles {
 @media (max-width: 769px) {
 
   /* HERO */
+  #mobile {
+    display: block;
+  }
   #web {
     display: none;
   }
@@ -391,14 +394,16 @@ h2.subtitles {
 
   .mobile-hero-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 1rem;
     background-color: black;
     color: white;
   }
 
-  .mobile-hero-container .description {
+  .mobile-hero-container p {
     width: 80%;
+    text-align: center;
   }
 
   .hero-skills-logos {

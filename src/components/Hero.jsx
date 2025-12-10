@@ -99,7 +99,7 @@ const Hero = () => {
             <div id="mobile">
                 <div className="mobile-hero-container">
                     <h1>Sindy Montano</h1>
-                    <p>.Net and React Full-Stack Software</p>
+                    <h3>.Net and React Full-Stack Software</h3>
                     <p className="description">More than 9 years of experience building robust, scalable solutions; Using .NET, C#, Power Platform, and modern web technologies. Focused on clean code, SOLID principles, and delivering high-quality software.</p>
 
                     <div className="hero-skills-logos">
