@@ -4,8 +4,8 @@
 }
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1250px;
+  margin: 0 auto !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -42,6 +42,10 @@ nav {
 
 .hero {
   width: "100%";
+}
+
+#mobile {
+  display: none;
 }
 
 .carrousel-image {
@@ -267,7 +271,6 @@ nav {
 .webp-video {
   width: 60%;
   border-radius: 15px;
-  
 }
 
 .webp-description {
@@ -315,12 +318,13 @@ nav {
   min-height: 0;
 }
 
-.mbp-video .video {
+.mbp-video .video video {
   display: block;
   width: 100%;
-  height: 100%; 
+  max-height: 80vh; 
   object-fit: contain;
   border-radius: 20px !important;
+  object-fit: fill; 
 }
 
 .mbp-description {
@@ -365,6 +369,12 @@ h2.subtitles {
   .project-item {
     flex: 0 0 48%;
   }
+
+  /* web project */
+  .webp-video {
+    width: 90%;
+    border-radius: 15px;
+  }
 }
 
 /* Teléfonos */
@@ -373,6 +383,10 @@ h2.subtitles {
   /* HERO */
   #web {
     display: none;
+  }
+
+  .webp-description {
+    width: 100%;
   }
 
   .mobile-hero-container {
@@ -450,6 +464,49 @@ h2.subtitles {
 
   .project-item img {
     height: 200px;
+  }
+
+  /* web project */
+  .webp-video {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  /* mobile project */
+  .mbp-container {
+    height: auto;
+  }
+  .mbp-body {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    max-height: none;
+  }
+
+  .mbp-body > * {
+    flex-shrink: 1;
+  }
+
+  .mbp-title, .webp-title, .mbp-description {
+    position: inherit;
+  }
+
+  .mbp-description {
+    max-height: none;
+    overflow-y: visible;
+    padding: 0 0.5rem 0 0;
+  }
+
+  .mbp-video {
+    max-width: 100%;
+  }
+
+  .mbp-video .video video {
+    width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+    border-radius: 20px !important;
+    /* object-fit: fill;  */
   }
 
   /* EXPERIENCE SECTION */

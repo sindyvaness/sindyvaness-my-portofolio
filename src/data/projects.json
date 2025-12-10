@@ -130,26 +130,5 @@
             "url": "https://github.com/vipuljuneja/FitFound",
             "text": "FitFound - GitHub Repo (private)"
         }
-    },
-    {
-        "type": "web",
-        "title": "MemoTrip",
-        "video": "",
-        "description": "",
-        "technologies": [""],
-        "mainTechnology": "Vanilla JavaScript",
-        "externalResources": [ {
-            "link": "",
-            "text": "" 
-            }
-        ],
-        "mainFeatures": [""],
-        "future": [""],
-        "gitHub": {
-            "url": "",
-            "text": ""
-        }
     }
-    
-    
 ]

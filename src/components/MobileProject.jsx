@@ -14,13 +14,15 @@ const MobileProject = () => {
         <div className="mbp-container">
             <div className="mbp-body">
                 <div className="mbp-video">
-                    <video className="video"
-                        src={project.video}
-                        autoPlay 
-                        loop 
-                        muted
-                        controls
-                        />
+                    <div className="video">
+                        <video
+                            src={project.video}
+                            autoPlay 
+                            loop 
+                            muted
+                            controls
+                            />
+                    </div>
                 </div>
                 <div className="mbp-description">
                     <div className="mbp-title">{project.title}</div>

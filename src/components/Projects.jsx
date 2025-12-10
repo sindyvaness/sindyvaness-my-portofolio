@@ -22,7 +22,7 @@ const Projects = () => {
 
     return(
         <div className="projects" id="projects">
-            <h2 className="subtitles">Projects</h2>
+            <h2 className="subtitles">Full-Stack Projects</h2>
             <div className="d-flex justify-content-between row-gap-3 projects-container">
                 {projects.map(project => (
                     <div className={ project.type === "mobile" ? "card project-item" : "card project-item web-project-card"} key={project.name}>
