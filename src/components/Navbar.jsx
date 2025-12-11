@@ -37,6 +37,12 @@ const Navbar = () => {
                     </li>
                 </ul>
                 </div>
+                <div className='social-media'>
+                    <a class="nav-link" href="https://www.linkedin.com/in/sindy-vanessa-montano/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                    <a class="nav-link" href="https://github.com/sindyvaness" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                    <a class="nav-link" href="https://learn.microsoft.com/en-us/users/sindyvanessamontao-9072/transcript/d4ye3am310lyrpw?tab=credentials-tab" target="_blank" rel="noopener noreferrer"><i class="bi bi-microsoft"></i></a>
+
+                </div>
             </div>
         </nav>
     );

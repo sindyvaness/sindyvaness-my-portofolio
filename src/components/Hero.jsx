@@ -102,6 +102,13 @@ const Hero = () => {
                     <h3>.Net and React Full-Stack Software</h3>
                     <p className="description">More than 9 years of experience building robust, scalable solutions; Using .NET, C#, Power Platform, and modern web technologies. Focused on clean code, SOLID principles, and delivering high-quality software.</p>
 
+                    <div className='social-media-hero'>
+                        <a class="nav-link" href="https://www.linkedin.com/in/sindy-vanessa-montano/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                        <a class="nav-link" href="https://github.com/sindyvaness" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                        <a class="nav-link" href="https://learn.microsoft.com/en-us/users/sindyvanessamontao-9072/transcript/d4ye3am310lyrpw?tab=credentials-tab" target="_blank" rel="noopener noreferrer"><i class="bi bi-microsoft"></i></a>
+
+                    </div>
+
                     <div className="hero-skills-logos">
                         <div>
                             <img src='assests/skills/dotNet.png' />
