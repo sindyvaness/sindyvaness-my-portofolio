@@ -321,7 +321,9 @@ nav {
 .mbp-video .video video {
   display: block;
   width: 100%;
+  max-width: 300px;
   max-height: 80vh; 
+  margin: auto;
   object-fit: contain;
   border-radius: 20px !important;
   object-fit: fill; 
@@ -503,7 +505,7 @@ h2.subtitles {
   }
 
   .mbp-video {
-    max-width: 100%;
+    width: 100%;
   }
 
   .mbp-video .video video {
