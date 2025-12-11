@@ -58,6 +58,15 @@ const WebProject = () => {
                             ))
                         }
                     </ul>
+                    {/* Contributions */}
+                     <p><i class="bi bi-bezier2"></i><strong>My Contribution:</strong></p>
+                    <ul>
+                        { 
+                            project.contribution.map( item => (
+                                <li>{item || "All the functionalities"}</li>
+                            ))
+                        }
+                    </ul>
                     <div>
                         <p><i class="bi bi-lightning"></i><strong>Feature Features and improvements:</strong></p>
                         <ul>
