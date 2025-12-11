@@ -162,5 +162,35 @@
             "url": "",
             "text": ""
         }
+    },
+    {
+        "type": "web",
+        "title": "Art Craft",
+        "video": "assests/projects/art-craft/video-demo.mp4",
+        "image": "assests/projects/art-craft/face.png",
+        "description": "A web application designed for craft artists to showcase and publish their creations. Visitors can explore the artwork and rate each piece using a star-based voting system. Built with ASP.NET Core Razor Pages, the app uses a JSON file as its database and an internal API to handle all interactions with the data, providing a simple and efficient experience for both artists and users.",
+        "contribution": [
+            "All functionalities."
+
+        ],
+        "technologies": [
+            "Asp.Net Core",
+            "Razor",
+            "APIs"
+        ],
+        "mainTechnology": "Asp.Net Core",
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
+        "mainFeatures": [
+            "Explore craft arts", "Reates the work"
+        ],
+        "future": [],
+        "gitHub": {
+            "url": "",
+            "text": ""
+        }
     }
 ]
