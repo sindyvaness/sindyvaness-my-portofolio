@@ -125,10 +125,42 @@
             "Verified Hiring Badges: Once a candidate is hired, the employer can 'badge' their profile to confirm employment, adding a verifiable work record visible to future employers.",
             "Profile Visibility Insights: Candidates can view stats on how often their profile is appearing in search results or getting shortlisted, helping them improve their visibility. "
         ],
-        "future": [""],
+        "future": [],
         "gitHub": {
             "url": "https://github.com/vipuljuneja/FitFound",
             "text": "FitFound - GitHub Repo (private)"
+        }
+    },
+    {
+        "type": "web",
+        "title": "Memotrip",
+        "video": "assests/projects/memotrip/video-demo.mp4",
+        "image": "assests/projects/memotrip/face.png",
+        "description": "A web app where users can search cities around the world for tourism, explore photos, reviews, and ratings, and plan personalized travel itineraries based on shared experiences. The platform also allows users to share their own travel stories and recommendations — all in one place.",
+        "contribution": [
+            "I served as the Project Manager for the team, and thanks to my previous experience, I supported our 9-member team by sharing knowledge, providing guidance, and even tutoring some team members when needed.", 
+            "Building and Developing Itinerary Page.", 
+            "Helping with some functionalities for the Search Experiences Pages."
+
+        ],
+        "technologies": [
+            "HTML, CSS, JavaScript",
+            "Firebase (Google Cloud Database)",
+            "GitHub for versioning and collaboration"
+        ],
+        "mainTechnology": "Vanilla JavaScript",
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
+        "mainFeatures": [
+            "Share Experiences", "Create Itinerary", "Search Experiences"
+        ],
+        "future": ["AI-generated Itineraries", "Shared Itineraries", "Trip Expense Tracker", "Group Itinerary Planning"],
+        "gitHub": {
+            "url": "",
+            "text": ""
         }
     }
 ]

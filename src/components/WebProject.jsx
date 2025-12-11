@@ -38,9 +38,14 @@ const WebProject = () => {
                     </ul>
                     <p><i class="bi bi-cloud-download"></i><strong>External Resources:</strong>
                         <ul>
-                            { 
+                            {  
                                 project.externalResources.map( item => (
-                                    <li><a href={item.link} target="_blank" rel="noopener noreferrer">{item.text}</a></li>
+                                    <li>{
+                                        item.link ? 
+                                            <a href={item.link} target="_blank" rel="noopener noreferrer">{item.text || "None"}</a>
+                                        :
+                                            "None"
+                                    }</li>
                                 ))
                             }
                         </ul>
@@ -58,7 +63,7 @@ const WebProject = () => {
                         <ul>
                             { 
                                 project.future.map( item => (
-                                    <li>{item}</li>
+                                    <li>{item || "None"}</li>
                                 ))
                             }
                         </ul>

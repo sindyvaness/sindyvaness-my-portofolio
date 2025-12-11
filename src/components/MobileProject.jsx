@@ -40,7 +40,12 @@ const MobileProject = () => {
                         <ul>
                             { 
                                 project.externalResources.map( item => (
-                                    <li><a href={item.link} target="_blank" rel="noopener noreferrer">{item.text}</a></li>
+                                    <li>{
+                                        item.link ? 
+                                            <a href={item.link} target="_blank" rel="noopener noreferrer">{item.text || "None"}</a>
+                                        :
+                                            "None"
+                                    }</li>
                                 ))
                             }
                         </ul>
@@ -58,7 +63,7 @@ const MobileProject = () => {
                         <ul>
                             { 
                                 project.future.map( item => (
-                                    <li>{item}</li>
+                                    <li>{item || "None"}</li>
                                 ))
                             }
                         </ul>
