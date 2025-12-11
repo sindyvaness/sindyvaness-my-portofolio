@@ -31,15 +31,9 @@ const Navbar = () => {
                     <li class="nav-item">
                         <HashLink className={`nav-link ${currentHash === "#contact" ? "active" : ""}`} smooth to="/#contact">Contact</HashLink>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        About
-                    </a>
-                    <ul class="dropdown-menu">
-                        {/* <li><a class="dropdown-item" href="#">About Me</a></li>
-                        <li><a class="dropdown-item" href="#">About this Site</a></li> */}
-                        <li><a class="dropdown-item" href="assests/Resume-SysEng-Sindy-Montano.pdf" target="_blank" rel="noopener noreferrer">Resume Download <i class="bi bi-box-arrow-down"></i></a></li>
-                    </ul>
+                    <li class="nav-item">
+                        {/* <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink> */}
+                        <a class="nav-link" href="assests/Resume-SysEng-Sindy-Montano.pdf" target="_blank" rel="noopener noreferrer">Resume <i class="bi bi-box-arrow-down"></i></a>
                     </li>
                 </ul>
                 </div>
