@@ -1,8 +1,11 @@
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
+import ReCaptchaButton from "./ReCaptchaButton";
 
-export default function ContactForm() {
+export default function ContactForm( props) {
   const [token, setToken] = useState(null);
+
+  const { buttonText } = props;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,20 +25,20 @@ export default function ContactForm() {
     );
 
     if (!res.ok) {
-      alert("Captcha failed");
+      console.log("Captcha failed");
       return;
     }
 
-    alert("Captcha verified!");
+    console.log("Captcha verified!");
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="recaptcha-form" onSubmit={handleSubmit}>
       <ReCAPTCHA
         sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
         onChange={setToken}
       />
-      <button type="submit">Submit</button>
+      <ReCaptchaButton buttonText = { buttonText || "Submit"}></ReCaptchaButton>
     </form>
   );
 }

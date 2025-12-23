@@ -7,6 +7,10 @@ const Navbar = () => {
     const location = useLocation();
     const currentHash = location.hash;
 
+    const handleDownloadResume = () => {
+
+    };
+
     return(
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
