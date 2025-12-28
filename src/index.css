@@ -373,26 +373,28 @@ h2.subtitles {
   font-weight: bold;
 }
 
-.recaptcha-form * {
+/* .recaptcha-form * {
   align-self: center;
-}
+} */
 
 /* RECAPTCHA */
 
 .recaptcha-form {
-  margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-.recaptcha-button {
-  padding: 0.2rem 0.5rem;
-  margin-top: 1rem;
-  background-color: #6c63ff;
-  border-radius: 10px;
-  color: white;
-  font-size: 16px;
-  text-transform: uppercase;
+.my-recaptcha {
+  max-width: 304px;
+  margin: auto;
+}
+
+[title="reCAPTCHA"] {
+  max-width: 100% !important;
+}
+
+.my-modal {
+  margin: auto;
 }
 
 /* Tablets */

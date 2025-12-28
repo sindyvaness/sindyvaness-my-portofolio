@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { useLocation } from "react-router-dom";
+import Modal from './utils/Modal';
+import RecaptchaForm from './utils/RecaptchaForm';
+import ReCaptchaButton from './utils/ReCaptchaButton';
 
 
 const Navbar = () => {
@@ -12,43 +15,54 @@ const Navbar = () => {
     };
 
     return(
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/#home">sindyvaness</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item nav-item">
-                        <HashLink className={`nav-link ${currentHash === "#home" ? "active" : ""}`} smooth to="/#home">Home</HashLink>
-                    </li>
-                    <li class="nav-item">
-                        <HashLink className={`nav-link ${currentHash === "#projects" ? "active" : ""}`} smooth to="/#projects">Projects</HashLink>
-                    </li>
-                    <li class="nav-item">
-                        <HashLink className={`nav-link ${currentHash === "#experience" ? "active" : ""}`} smooth to="/#experience">Experience</HashLink>
-                    </li>
-                    <li class="nav-item">
-                        <HashLink className={`nav-link ${currentHash === "#education" ? "active" : ""}`} smooth to="/#education">Education</HashLink>
-                    </li>
-                    <li class="nav-item">
-                        <HashLink className={`nav-link ${currentHash === "#contact" ? "active" : ""}`} smooth to="/#contact">Contact</HashLink>
-                    </li>
-                    <li class="nav-item">
-                        {/* <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink> */}
-                        <a class="nav-link" href="assests/Resume-SysEng-Sindy-Montano.pdf" target="_blank" rel="noopener noreferrer">Resume <i class="bi bi-box-arrow-down"></i></a>
-                    </li>
-                </ul>
-                </div>
-                <div className='social-media'>
-                    <a class="nav-link" href="https://www.linkedin.com/in/sindy-vanessa-montano/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                    <a class="nav-link" href="https://github.com/sindyvaness" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                    <a class="nav-link" href="https://learn.microsoft.com/en-us/users/sindyvanessamontao-9072/transcript/d4ye3am310lyrpw?tab=credentials-tab" target="_blank" rel="noopener noreferrer"><i class="bi bi-microsoft"></i></a>
+        <div>
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/#home">sindyvaness</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-item">
+                            <HashLink className={`nav-link ${currentHash === "#home" ? "active" : ""}`} smooth to="/#home">Home</HashLink>
+                        </li>
+                        <li class="nav-item">
+                            <HashLink className={`nav-link ${currentHash === "#projects" ? "active" : ""}`} smooth to="/#projects">Projects</HashLink>
+                        </li>
+                        <li class="nav-item">
+                            <HashLink className={`nav-link ${currentHash === "#experience" ? "active" : ""}`} smooth to="/#experience">Experience</HashLink>
+                        </li>
+                        <li class="nav-item">
+                            <HashLink className={`nav-link ${currentHash === "#education" ? "active" : ""}`} smooth to="/#education">Education</HashLink>
+                        </li>
+                        <li class="nav-item">
+                            <HashLink className={`nav-link ${currentHash === "#contact" ? "active" : ""}`} smooth to="/#contact">Contact</HashLink>
+                        </li>
+                        <li class="nav-item">
+                            {/* <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink> */}
+                            {/* <a class="nav-link" href="assests/Resume-SysEng-Sindy-Montano.pdf" target="_blank" rel="noopener noreferrer">Resume <i class="bi bi-box-arrow-down"></i></a> */}
 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Resume <i class="bi bi-box-arrow-down"></i>
+                            </button>
+                        </li>
+                    </ul>
+                    </div>
+                    <div className='social-media'>
+                        <a class="nav-link" href="https://www.linkedin.com/in/sindy-vanessa-montano/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                        <a class="nav-link" href="https://github.com/sindyvaness" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                        <a class="nav-link" href="https://learn.microsoft.com/en-us/users/sindyvanessamontao-9072/transcript/d4ye3am310lyrpw?tab=credentials-tab" target="_blank" rel="noopener noreferrer"><i class="bi bi-microsoft"></i></a>
+
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+
+            <Modal 
+                title = "Confirm that you are not a robot"
+                Content = {RecaptchaForm}
+            ></Modal>
+        </div>
     );
 };
 

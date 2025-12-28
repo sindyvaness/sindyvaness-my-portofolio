@@ -2,7 +2,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
 import ReCaptchaButton from "./ReCaptchaButton";
 
-export default function ContactForm( props) {
+export default function RecaptchaForm( props) {
   const [token, setToken] = useState(null);
 
   const { buttonText } = props;
@@ -34,11 +34,17 @@ export default function ContactForm( props) {
 
   return (
     <form className="recaptcha-form" onSubmit={handleSubmit}>
-      <ReCAPTCHA
-        sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
-        onChange={setToken}
-      />
-      <ReCaptchaButton buttonText = { buttonText || "Submit"}></ReCaptchaButton>
+      <div className="modal-body">
+        <ReCAPTCHA
+          className="my-recaptcha"
+          sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+          onChange={setToken}
+        ></ReCAPTCHA>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <ReCaptchaButton buttonText = { buttonText || "Submit"}></ReCaptchaButton>
+      </div>
     </form>
   );
 }
