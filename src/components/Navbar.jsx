@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { useLocation } from "react-router-dom";
+import ThisSiteNavItem from './about/ThisSiteNavItem';
 
 
 const Navbar = () => {
@@ -36,7 +37,8 @@ const Navbar = () => {
                             About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">This Site</a></li>
+                            <ThisSiteNavItem></ThisSiteNavItem>
+                            {/* <li><a class="dropdown-item" href="#">This Site</a></li> */}
                             {/* <li><a class="dropdown-item" href="#">Sindy Montano</a></li> */}
                         </ul>
                     </li>
