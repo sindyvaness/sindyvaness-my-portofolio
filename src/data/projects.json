@@ -100,6 +100,42 @@
     },
     {
         "type": "web",
+        "title": "sindyvaness.com",
+        "video": "assests/projects/portfolio/video-demo.mov",
+        "image": "assests/projects/portfolio/cover.png",
+        "description": "This portfolio was designed as a personal showcase of my work as a full-stack developer. My goal was to build a fast, maintainable, and scalable site that demonstrates my approach to component-based design, clean architecture, and modern development best practices.",
+        "contribution": [
+            "All the functionalities"
+
+        ],
+        "technologies": [
+            "React and JavaScript for building a dynamic, responsive user interface",
+            "Amazon Web Server EC2 instance for deployment",
+            "Host: Linux - Apache",
+            "JSON file for static datastorage"
+        ],
+        "mainTechnology": "React - JavaScript",
+        "externalResources": [ {
+            "link": "",
+            "text": "" 
+            }
+        ],
+        "mainFeatures": [
+            "Hero", "Projects", "Experience"
+        ],
+        "future": [
+            "Google Recaptcha",
+            "AWS Lambda functions as a backend",
+            "Contact form",
+            "Migrate to TypeScript language, and more..."
+        ],
+        "gitHub": {
+            "url": "https://github.com/sindyvaness/sindyvaness-my-portofolio.git",
+            "text": "sindyvaness.com - GitHub Repo"
+        }
+    },
+    {
+        "type": "web",
         "title": "FitFound",
         "video": "assests/projects/fit-found/fitfound-demo.mp4",
         "image": "assests/projects/fit-found/face.png",
