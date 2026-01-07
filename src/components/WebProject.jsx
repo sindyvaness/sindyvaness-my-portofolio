@@ -36,7 +36,7 @@ const WebProject = () => {
                             ))
                         }
                     </ul>
-                    <p><i class="bi bi-cloud-download"></i><strong>External Resources:</strong>
+                    <p><i class="bi bi-cloud-download"></i><strong>External Resources:</strong></p>
                         <ul>
                             {  
                                 project.externalResources.map( item => (
@@ -49,7 +49,7 @@ const WebProject = () => {
                                 ))
                             }
                         </ul>
-                    </p>
+                    
                     <p><i class="bi bi-gear"></i><strong>Main Features:</strong></p>
                     <ul>
                         { 

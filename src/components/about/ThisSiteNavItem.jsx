@@ -6,7 +6,6 @@ const ThisSiteNavItem = () => {
     const project = projects.filter( x => x.title === "sindyvaness.com")[0];
 
     const redirectProject = () => {
-        console.log(project);
         navigate("/web-project", {
             state: { project }
         }); 

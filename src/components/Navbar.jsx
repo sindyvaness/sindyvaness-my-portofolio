@@ -10,48 +10,48 @@ const Navbar = () => {
 
     return(
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/#home">sindyvaness</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <div className="container-fluid">
+                <a className="navbar-brand" href="/#home">sindyvaness</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item nav-item">
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul className="navbar-nav">
+                    <li className="nav-item nav-item" key="home">
                         <HashLink className={`nav-link ${currentHash === "#home" ? "active" : ""}`} smooth to="/#home">Home</HashLink>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item" key="projects">
                         <HashLink className={`nav-link ${currentHash === "#projects" ? "active" : ""}`} smooth to="/#projects">Projects</HashLink>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item" key="experience">
                         <HashLink className={`nav-link ${currentHash === "#experience" ? "active" : ""}`} smooth to="/#experience">Experience</HashLink>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item" key="education">
                         <HashLink className={`nav-link ${currentHash === "#education" ? "active" : ""}`} smooth to="/#education">Education</HashLink>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item" key="contact">
                         <HashLink className={`nav-link ${currentHash === "#contact" ? "active" : ""}`} smooth to="/#contact">Contact</HashLink>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item dropdown" key="about">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul className="dropdown-menu">
                             <ThisSiteNavItem></ThisSiteNavItem>
-                            {/* <li><a class="dropdown-item" href="#">This Site</a></li> */}
-                            {/* <li><a class="dropdown-item" href="#">Sindy Montano</a></li> */}
+                            {/* <li><a className="dropdown-item" href="#">This Site</a></li> */}
+                            {/* <li><a className="dropdown-item" href="#">Sindy Montano</a></li> */}
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         {/* <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink> */}
-                        <a class="nav-link" href="assests/Resume-SysEng-Sindy-Montano.pdf" target="_blank" rel="noopener noreferrer">Resume <i class="bi bi-box-arrow-down"></i></a>
+                        <a className="nav-link" href="assests/Resume-SysEng-Sindy-Montano.pdf" target="_blank" rel="noopener noreferrer">Resume <i className="bi bi-box-arrow-down"></i></a>
                     </li>
                 </ul>
                 </div>
                 <div className='social-media'>
-                    <a class="nav-link" href="https://www.linkedin.com/in/sindy-vanessa-montano/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                    <a class="nav-link" href="https://github.com/sindyvaness" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                    <a class="nav-link" href="https://learn.microsoft.com/en-us/users/sindyvanessamontao-9072/transcript/d4ye3am310lyrpw?tab=credentials-tab" target="_blank" rel="noopener noreferrer"><i class="bi bi-microsoft"></i></a>
+                    <a className="nav-link" href="https://www.linkedin.com/in/sindy-vanessa-montano/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
+                    <a className="nav-link" href="https://github.com/sindyvaness" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
+                    <a className="nav-link" href="https://learn.microsoft.com/en-us/users/sindyvanessamontao-9072/transcript/d4ye3am310lyrpw?tab=credentials-tab" target="_blank" rel="noopener noreferrer"><i className="bi bi-microsoft"></i></a>
 
                 </div>
             </div>

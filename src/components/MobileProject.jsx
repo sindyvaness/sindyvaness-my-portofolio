@@ -36,7 +36,7 @@ const MobileProject = () => {
                             ))
                         }
                     </ul>
-                    <p><i class="bi bi-cloud-download"></i><strong>External Resources:</strong>
+                    <p><i class="bi bi-cloud-download"></i><strong>External Resources:</strong></p>
                         <ul>
                             { 
                                 project.externalResources.map( item => (
@@ -49,7 +49,6 @@ const MobileProject = () => {
                                 ))
                             }
                         </ul>
-                    </p>
                     <p><i class="bi bi-gear"></i><strong>Main Features:</strong></p>
                     <ul>
                         { 
@@ -78,7 +77,7 @@ const MobileProject = () => {
                         </ul>
                     </div>
                     <div>
-                        <p><i class="bi bi-github"></i>
+                        <p><i class="bi bi-github"></i></p>
                             <strong><a 
                                 href={project.gitHub.url || "https://github.com/sindyvaness"}
                                 target="_blank" 
@@ -86,7 +85,6 @@ const MobileProject = () => {
                                 >
                                {project.gitHub.text || "No provided"}
                             </a></strong>
-                        </p>
                     </div>
                 </div>
             </div>
