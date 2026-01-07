@@ -77,7 +77,7 @@ const MobileProject = () => {
                         </ul>
                     </div>
                     <div>
-                        <p><i class="bi bi-github"></i></p>
+                        <p><i class="bi bi-github"></i>
                             <strong><a 
                                 href={project.gitHub.url || "https://github.com/sindyvaness"}
                                 target="_blank" 
@@ -85,6 +85,7 @@ const MobileProject = () => {
                                 >
                                {project.gitHub.text || "No provided"}
                             </a></strong>
+                        </p>
                     </div>
                 </div>
             </div>
