@@ -4,10 +4,21 @@
         "type": "mobile",
         "title": "Dosis",
         "image": "assests/projects/dosis/face.png",
-        "video": "assests/projects/dosis/dosis-soon.mp4",
+        "video": "assests/projects/dosis/demo.mov",
         "description": "DoSis is a MedTech and Digital Health app designed to simplify the management of medications. It helps to prevent missed doses, unsafe combinations, and confusion by integrating schedules, providing explanations, risk alerts, and fitting into routines.",
         "contribution": [
-            "Soon"
+            "Helped structure and clarify the business idea, aligning technical solutions with product goals",
+            "Contributed to application architecture and system design decisions, improving scalability and maintainability",
+            "Translated business requirements into scalable and maintainable software solutions",
+            "Collaborated on MongoDB schema design",
+            "Collected and curated Canadian medication data from official government sources",
+            "Integrated Google OAuth authentication for Android and iOS platforms",
+            "Developed RESTful APIs (controllers, routes, middleware, endpoints)",
+            "Implemented JWT-based authentication and authorization",
+            "Built AI-driven capabilities for drug–drug interaction analysis using Gemini AI",
+            "Designed a caching and reuse mechanism for AI responses to reduce costs and third-party AI dependency",
+            "Mentored team members on industry standards, clean code, and software design principles",
+            "Contributed to testing efforts and overall software quality assurance"
         ],
         "technologies": [
             "React Native (JavaScript) with Expo Go",
