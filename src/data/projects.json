@@ -4,7 +4,7 @@
         "type": "mobile",
         "title": "Dosis",
         "image": "assests/projects/dosis/face.png",
-        "video": "assests/projects/dosis/demo.mov",
+        "video": "assests/projects/dosis/demo.mp4",
         "description": "DoSis is a MedTech and Digital Health app designed to simplify the management of medications. It helps to prevent missed doses, unsafe combinations, and confusion by integrating schedules, providing explanations, risk alerts, and fitting into routines.",
         "contribution": [
             "Helped structure and clarify the business idea, aligning technical solutions with product goals",
